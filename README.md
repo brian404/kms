@@ -33,6 +33,6 @@ Alternatively, you can visit our support page at:
 
 [Support Page](https://support-kms.techstar.eu.org)
 
-We value your feedback and are here to help you with any inquiries or concerns you may have. Enjoy using the KMS Activation Tool!
+Enjoy using the KMS Activation Tool!
 
-Credit to [massgrave.dev](https://massgrave.dev) for providing the code inspiration.
+Credit to [massgrave.dev](https://massgrave.dev)
