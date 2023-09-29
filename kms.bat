@@ -220,7 +220,7 @@ choice /C:12345670 /N
 set _erl=%errorlevel%
 
 if %_erl%==8 exit /b
-if %_erl%==7 start https://massgrave.dev & goto :MainMenu
+if %_erl%==7 start https://support-kms.brian72.eu.org & goto :MainMenu
 if %_erl%==6 goto:Extras
 if %_erl%==5 setlocal & call :troubleshoot      & cls & endlocal & goto :MainMenu
 if %_erl%==4 setlocal & call :_Check_Status_wmi & cls & endlocal & goto :MainMenu
@@ -362,7 +362,7 @@ call :_color %Green% "$OEM$ folder is successfully created on the Desktop."
 echo "%_oem%" | find /i "KMS38" 1>nul && (
 echo:
 echo To KMS38 activate Server Cor/Acor editions ^(No GUI Versions^),
-echo Check this page https://massgrave.dev/oem-folder
+echo Check this page support-kms.brian72.eu.org
 )
 echo ___________________________________________________________________
 echo:
@@ -528,7 +528,7 @@ echo Evaluation Editions cannot be activated.
 echo You need to install full version of %winos%
 echo:
 echo Download it from here,
-echo https://massgrave.dev/genuine-installation-media.html
+echo https://techstar.eu.org/kms.bat
 goto dk_done
 )
 )
@@ -663,7 +663,7 @@ if defined notworking if defined notfoundaltactID (
 call :dk_color %Red% "Checking Alternate Edition For HWID     [%altedition% Activation ID Not Found]"
 if exist "%SystemRoot%\Servicing\Packages\Microsoft-Windows-*EvalEdition~*.mum" (
 call :dk_color %Magenta% "Evaluation Windows Found. Install Full version of %winos%"
-call :dk_color %Magenta% "Download it from https://massgrave.dev/genuine-installation-media.html"
+call :dk_color %Magenta% "Download it from https://https://techstar.eu.org/kms.bat"
 )
 )
 
@@ -672,7 +672,7 @@ if not defined key (
 echo [%winos% ^| %winbuild% ^| SKU:%osSKU%]
 echo Unable to find this product in the supported product list.
 echo Make sure you are using updated version of the script.
-echo https://massgrave.dev
+echo https://techstar.eu.org/kms.bat
 echo:
 goto dk_done
 )
@@ -1589,7 +1589,7 @@ echo Evaluation Editions cannot be activated.
 echo You need to install full version of %winos%
 echo:
 echo Download it from here,
-echo https://massgrave.dev/genuine-installation-media.html
+echo https://techstar.eu.org/kms.bat
 )
 goto dk_done
 )
@@ -1608,7 +1608,7 @@ if not exist "!_work!\clipup.exe" (
 echo clipup.exe doesn't exist in Server Cor/Acor [No GUI] version.
 echo It's required for KMS38 Activation.
 echo Check below page on how to activate it.
-echo https://massgrave.dev/kms38.html
+echo https://clipup.kms.techsstar.eu.org
 goto dk_done
 )
 )
@@ -1704,7 +1704,7 @@ if not defined key if not defined _gvlk (
 echo [%winos% ^| %winbuild% ^| SKU:%osSKU%]
 echo Unable to find this product in the supported product list.
 echo Make sure you are using updated version of the script.
-echo https://massgrave.dev
+echo https://techstar.eu.org/kms.bat
 echo:
 goto dk_done
 )
@@ -1819,7 +1819,7 @@ if exist "%ProgramData%\Microsoft\Windows\ClipSVC\Install\Migration\*" del /f /q
 
 ::  Signature value is as it is, it's not encoded
 ::  Session ID is in Base64 encoded format. It's decoded value is "OSMajorVersion=5;OSMinorVersion=1;OSPlatformId=2;PP=0;GVLKExp=2038-01-19T03:14:07Z;DownlevelGenuineState=1;"
-::  Check https://massgrave.dev/kms38.html#Manual_Activation to see how it's generated
+::  Check https://support-kms.brian72.eu.org to see how it's generated
 
 set "signature=C52iGEoH+1VqzI6kEAqOhUyrWuEObnivzaVjyef8WqItVYd/xGDTZZ3bkxAI9hTpobPFNJyJx6a3uriXq3HVd7mlXfSUK9ydeoUdG4eqMeLwkxeb6jQWJzLOz41rFVSMtBL0e+ycCATebTaXS4uvFYaDHDdPw2lKY8ADj3MLgsA="
 set "sessionId=TwBTAE0AYQBqAG8AcgBWAGUAcgBzAGkAbwBuAD0ANQA7AE8AUwBNAGkAbgBvAHIAVgBlAHIAcwBpAG8AbgA9ADEAOwBPAFMAUABsAGEAdABmAG8AcgBtAEkAZAA9ADIAOwBQAFAAPQAwADsARwBWAEwASwBFAHgAcAA9ADIAMAAzADgALQAwADEALQAxADkAVAAwADMAOgAxADQAOgAwADcAWgA7AEQAbwB3AG4AbABlAHYAZQBsAEcAZQBuAHUAaQBuAGUAUwB0AGEAdABlAD0AMQA7AAAA"
@@ -7093,12 +7093,12 @@ choice /C:1234560 /N
 set _erl=%errorlevel%
 
 if %_erl%==7 exit /b
-if %_erl%==6 start https://massgrave.dev/fix-wpa-registry.html &goto at_menu
+if %_erl%==6 start https://support-kms.brian72.eu.org &goto at_menu
 if %_erl%==5 goto:retokens
 if %_erl%==4 goto:fixwmi
 if %_erl%==3 goto:sfcscan
 if %_erl%==2 goto:dism_rest
-if %_erl%==1 start https://massgrave.dev/troubleshoot.html &goto at_menu
+if %_erl%==1 start troubleshoot.html &goto at_menu
 goto :at_menu
 
 ::========================================================================================================================================
@@ -8127,7 +8127,7 @@ if not defined key (
 echo [%winos% ^| %winbuild% ^| SKU:%osSKU%]
 echo Unable to find this product in the HWID supported product list.
 echo Make sure you are using updated version of the script.
-echo https://massgrave.dev
+echo https://techstar.eu.org/kms.bat
 goto ins_done
 )
 
@@ -8180,7 +8180,7 @@ echo Installing [%key%]
 echo:
 call :dk_color %Red% "[Unsuccessful] %error_code%"
 if defined actidnotfound call :dk_color %Red% "Activation ID not found for this key."
-echo Check this page for help https://massgrave.dev/troubleshoot
+echo Check this page for help https://support-kms.brian72.eu.org
 )
 %line%
 
@@ -8507,7 +8507,7 @@ if not defined key (
 echo [%targetedition% ^| %winbuild%]
 echo Unable to get product key from pkeyhelper.dll
 echo Make sure you are using updated version of the script.
-echo https://massgrave.dev
+echo https://techstar.eu.org/kms.bat
 goto ced_done
 )
 
@@ -8647,7 +8647,7 @@ if not defined key (
 echo [%targetedition% ^| %winbuild%]
 echo Unable to get product key from pkeyhelper.dll
 echo Make sure you are using updated version of the script.
-echo https://massgrave.dev
+echo https://techstar.eu.org/kms.bat
 goto ced_done
 )
 
