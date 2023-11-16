@@ -8,7 +8,7 @@ The KMS (Key Management Service) Activation Tool is a batch script that allows y
 
 To use the KMS Activation Tool, you can download the `kms.bat` script from the link below:
 
-[Download KMS Activation Tool](https://techstar.eu.org/kms.bat)
+[Download KMS Activation Tool](https://raw.githubusercontent.com/brian404/kms/master/kms.bat)
 
 Save the `kms.bat` file to your local machine.
 
