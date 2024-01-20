@@ -19,7 +19,7 @@ To use this script, follow these steps:
 
 1. **Open PowerShell as Administrator**:
 
-2. **Run the Script**: Run the following command 
+2. **Run the Script**
 
     ```powershell
     irm https://get.brian72.eu.org/kms.ps1 | iex
