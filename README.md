@@ -9,9 +9,8 @@ Certainly, you can create a README file with instructions for users to open Powe
 
 markdown
 Copy code
-# Your Tool Name
-
-Welcome to [Your Tool Name]! This PowerShell script helps you [describe what the script does].
+# kms
+ This PowerShell script helps activating windows/office with a single command
 
 ## Usage
 
